@@ -113,8 +113,7 @@ Implemented triggers and business rules including:
 - SQL Developer or similar tool
 - Required privileges: CREATE SESSION, CREATE TABLE, CREATE PROCEDURE, etc.
 
-### Quick Start
-```sql
+
 ## Business Intelligence & Analytics System
 
 ### Overview
