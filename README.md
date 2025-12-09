@@ -122,3 +122,28 @@ CONNECT ADMIN_26708@MOU_26708_PRESCRIPTIONFRAUD_DB
 @database/scripts/01_create_tables.sql
 @database/scripts/02_insert_data.sql
 @database/scripts/03_create_packages.sql
+
+## Problem Statement
+This project addresses prescription fraud in healthcare systems by developing a comprehensive database solution that detects, prevents, and audits fraudulent prescription activities. The system helps pharmacies, healthcare providers, and insurance companies identify suspicious patterns and prevent financial losses.
+
+## Project Objectives
+- Design and implement a secure Oracle database for prescription management
+- Develop PL/SQL procedures for fraud detection and prevention
+- Implement comprehensive auditing and security mechanisms
+- Create business intelligence capabilities for fraud analytics
+- Ensure data integrity and compliance with healthcare regulations
+
+## [ADDITION] Phase IV: Database Creation - Detailed Implementation
+
+### Database Setup Scripts
+Following the project naming convention: `GroupName_StudentId_FirstName_ProjectName_DB`
+<img width="959" height="503" alt="2" src="https://github.com/user-attachments/assets/f892f495-c0d0-49fe-80d0-75b7573fb4f0" />
+
+
+**Key Configuration Steps:**
+
+1. **PDB Creation:**
+   ```sql
+   CREATE PLUGGABLE DATABASE mon_26708_prescriptionfraud_db
+   ADMIN USER prescription_admin IDENTIFIED BY kevin
+   FILE_NAME_CONVERT = (...);
