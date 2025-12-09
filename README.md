@@ -115,6 +115,13 @@ Implemented triggers and business rules including:
 
 ### Quick Start
 ```sql
+## Business Intelligence & Analytics System
+
+### Overview
+The Smart Prescription Fraud Prevention System includes comprehensive Business Intelligence (BI) capabilities designed to transform raw prescription data into actionable insights for healthcare administrators, pharmacy managers, and regulatory authorities.
+![images](https://github.com/user-attachments/assets/8c2eb21e-d870-4df2-b781-26ba905575a3)
+
+
 -- Connect to the database
 CONNECT ADMIN_26708@MOU_26708_PRESCRIPTIONFRAUD_DB
 
@@ -123,21 +130,114 @@ CONNECT ADMIN_26708@MOU_26708_PRESCRIPTIONFRAUD_DB
 @database/scripts/02_insert_data.sql
 @database/scripts/03_create_packages.sql
 
-## Problem Statement
-This project addresses prescription fraud in healthcare systems by developing a comprehensive database solution that detects, prevents, and audits fraudulent prescription activities. The system helps pharmacies, healthcare providers, and insurance companies identify suspicious patterns and prevent financial losses.
-
-## Project Objectives
-- Design and implement a secure Oracle database for prescription management
-- Develop PL/SQL procedures for fraud detection and prevention
-- Implement comprehensive auditing and security mechanisms
-- Create business intelligence capabilities for fraud analytics
-- Ensure data integrity and compliance with healthcare regulations
 
 ## [ADDITION] Phase IV: Database Creation - Detailed Implementation
 
 ### Database Setup Scripts
 Following the project naming convention: `GroupName_StudentId_FirstName_ProjectName_DB`
 <img width="959" height="503" alt="2" src="https://github.com/user-attachments/assets/f892f495-c0d0-49fe-80d0-75b7573fb4f0" />
+
+## Conclusion
+
+### Project Achievements
+
+The **Smart Prescription Fraud Prevention System** successfully addresses a critical challenge in healthcare management through comprehensive database design and advanced PL/SQL implementation. This project demonstrates the practical application of Oracle database technologies to solve real-world problems in prescription fraud detection and prevention.
+
+#### Key Accomplishments:
+
+1. **Complete Database Solution**: Successfully designed and implemented a production-ready Oracle database system with 7 core tables, comprehensive auditing, and fraud detection mechanisms.
+
+2. **Advanced PL/SQL Implementation**: Developed sophisticated PL/SQL packages, procedures, and triggers that enforce critical business rules, including weekday/holiday restrictions for data modifications.
+
+3. **Robust Security Framework**: Implemented comprehensive auditing through the `SYSTEM_AUDIT_TRAIL` table with fraud flagging capabilities, ensuring complete data lineage and compliance tracking.
+
+4. **Business Intelligence Foundation**: Established a solid BI infrastructure with defined KPIs, dashboard requirements, and analytical queries that transform operational data into actionable insights.
+
+5. **Professional Documentation**: Created extensive documentation following academic standards, including ER diagrams, BPMN workflows, data dictionaries, and implementation guides.
+
+### Technical Excellence Demonstrated
+
+This project showcases mastery in several key areas:
+
+- **Database Design**: Normalized schema design adhering to 3NF principles with appropriate indexing strategies
+- **PL/SQL Programming**: Implementation of packages, procedures, functions, and complex triggers with proper exception handling
+- **Performance Optimization**: Strategic tablespace configuration, memory parameter tuning, and indexing for optimal performance
+- **Security Implementation**: Comprehensive user privilege management and audit trail mechanisms
+- **Data Integrity**: Enforcement of business rules through constraints, triggers, and validation procedures
+
+### Impact and Value Proposition
+
+#### For Healthcare Organizations:
+- **Reduced Financial Losses**: Proactive fraud detection prevents prescription fraud losses
+- **Enhanced Compliance**: Automated audit trails simplify regulatory compliance
+- **Improved Patient Safety**: Validation mechanisms ensure prescription accuracy and patient safety
+- **Operational Efficiency**: Streamlined prescription processing and validation workflows
+
+#### For Academic Demonstration:
+- **Comprehensive Skill Showcase**: Demonstrates proficiency across all phases of database development
+- **Real-World Applicability**: Addresses a genuine healthcare industry challenge
+- **Scalable Architecture**: Design supports future expansion and integration
+- **Production-Ready Quality**: Code quality and documentation meet professional standards
+
+### Lessons Learned
+
+Throughout this capstone project, several valuable insights were gained:
+
+1. **Importance of Planning**: Thorough requirement analysis and design significantly reduced implementation challenges
+2. **Testing is Critical**: Comprehensive testing, especially for business rule triggers, ensured system reliability
+3. **Documentation Matters**: Clear documentation facilitated both development and potential future maintenance
+4. **Performance Considerations**: Early attention to indexing and query optimization prevented performance bottlenecks
+5. **Real-World Complexity**: Healthcare systems require careful consideration of privacy, security, and compliance requirements
+
+### Future Enhancement Opportunities
+
+While the current implementation meets all project requirements, several areas offer opportunities for expansion:
+
+1. **Machine Learning Integration**: Implement predictive analytics for proactive fraud detection
+2. **Mobile Application**: Develop companion apps for doctors and pharmacists
+3. **Blockchain Implementation**: Use blockchain for immutable prescription records
+4. **API Integration**: Connect with external healthcare databases and insurance systems
+5. **Real-time Analytics**: Implement streaming analytics for immediate fraud detection
+6. **Multi-language Support**: Localize the system for international deployment
+
+### Final Reflections
+
+This capstone project represents not just an academic exercise, but a meaningful contribution to healthcare technology. By combining database theory with practical implementation, we've created a system that could genuinely improve prescription safety and reduce healthcare fraud.
+
+The project successfully bridges the gap between academic learning and professional practice, demonstrating how database technologies can address significant societal challenges. From initial problem identification through to BI implementation, every phase required careful consideration of both technical requirements and real-world applicability.
+
+### Acknowledgments
+
+This project was made possible through:
+- **Academic Guidance**: Expert instruction and feedback from course instructors
+- **Technical Resources**: Oracle Corporation's database technology and tools
+- **Industry Inspiration**: Healthcare professionals working to combat prescription fraud
+- **Personal Dedication**: Commitment to excellence and thorough implementation
+
+### Repository Information
+
+**GitHub Repository**: [Link to your repository]
+**Last Updated**: December 2025
+**Status**: ✅ Complete - All 8 phases implemented
+**License**: Academic Use - Adventist University of Central Africa
+
+---
+
+### Final Words
+
+> *"Whatever you do, work at it with all your heart, as working for the Lord, not for human masters." — Colossians 3:23 (NIV)*
+
+This project was undertaken with dedication, attention to detail, and a commitment to excellence. It stands as a testament to the power of database technologies to create positive change in healthcare systems and serves as a comprehensive demonstration of PL/SQL database development mastery.
+
+The Smart Prescription Fraud Prevention System is more than just code—it's a functional solution to a real problem, designed with care, implemented with precision, and documented with clarity. It represents the culmination of academic learning transformed into practical, impactful technology.
+
+---
+
+**Project Completed By**: Kevin (ID: 26708)  
+**Academic Institution**: Adventist University of Central Africa (AUCA)  
+**Course**: Database Development with PL/SQL (INSY 8311)  
+**Completion Date**: December 7, 2025  
+**Database**: MOU_26708_PRESCRIPTIONFRAUD_DB 
 
 
 **Key Configuration Steps:**
@@ -146,4 +246,4 @@ Following the project naming convention: `GroupName_StudentId_FirstName_ProjectN
    ```sql
    CREATE PLUGGABLE DATABASE mon_26708_prescriptionfraud_db
    ADMIN USER prescription_admin IDENTIFIED BY kevin
-   FILE_NAME_CONVERT = (...);
+
