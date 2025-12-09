@@ -1,13 +1,13 @@
 # Smart Prescription Fraud Prevention System
 
 ## Project Overview
-**Student:** Kevin (ID: 26708)  
+**Student:** Niyomugabo Nice Kevin (ID: 26708)  
 **Course:** Database Development with PL/SQL (INSY 8311)  
 **Institution:** Adventist University of Central Africa (AUCA)  
 **Academic Year:** 2025-2026 | Semester: I  
 **Lecturer:** Eric Maniraguha  
 **Completion Date:** December 7, 2025  
-**Database:** MOU_26708_PRESCRIPTIONFRAUD_DB  
+**Database:** MON_26708_PRESCRIPTIONFRAUD_DB  
 
 ## Problem Statement
 This project addresses prescription fraud in healthcare systems by developing a comprehensive database solution that detects, prevents, and audits fraudulent prescription activities. The system helps pharmacies, healthcare providers, and insurance companies identify suspicious patterns and prevent financial losses.
@@ -22,7 +22,8 @@ This project addresses prescription fraud in healthcare systems by developing a 
 ## Database Structure
 
 ### ER Diagram
-![ER Diagram](ER_DIAGRAM.png) *Place the ER diagram screenshot here*
+<img width="410" height="381" alt="ER DIAGRAM" src="https://github.com/user-attachments/assets/f8978ada-a13c-49f9-8f66-786a6b61357b" />
+
 
 **Tables:**
 1. `PATIENT` - Patient demographic information
@@ -42,13 +43,16 @@ This project addresses prescription fraud in healthcare systems by developing a 
 - `PRESCRIPTION_IDX` (100MB) - For indexes
 - `PRESCRIPTION_TEMP` (100MB) - Temporary tablespace
 
-![Database Connection](main_17.png) *Place database connection screenshot*
-![Tablespace Verification](main_5.png) *Place tablespace verification screenshot*
+<img width="224" height="244" alt="main 17" src="https://github.com/user-attachments/assets/c4369507-724d-41f2-b6fd-71fd53f5f69f" />
+
+<img width="779" height="340" alt="main 5" src="https://github.com/user-attachments/assets/db56d986-76fe-4cec-84f9-f2959a80806e" />
+
 
 ## Business Process Modeling
 
 ### BPMN Workflow
-![BPMN Diagram](BPMN.png) *Place BPMN diagram screenshot*
+<img width="755" height="286" alt="BPMN" src="https://github.com/user-attachments/assets/4b3be29e-7e0b-496e-807d-7179c012a7cd" />
+
 
 **Key Processes:**
 1. **Patient Registration & Validation**
@@ -61,13 +65,16 @@ This project addresses prescription fraud in healthcare systems by developing a 
 ### Phase IV: Database Creation
 Database successfully created with all required configurations including tablespaces, users, and parameters.
 
-![Database Information](main_4.png) *Place database information screenshot*
-![Database Parameters](main_7.png) *Place database parameters screenshot*
+<img width="781" height="341" alt="main 4" src="https://github.com/user-attachments/assets/1e2c3673-41da-4e57-9c43-94c26e0a8e46" />
+
+<img width="782" height="401" alt="main 7" src="https://github.com/user-attachments/assets/6588c071-1ec5-47b8-bbb6-a77b4ea83f4e" />
+
 
 ### Phase V: Table Implementation
 All tables created with proper constraints, indexes, and relationships. Sample data inserted for testing.
 
-![Created Objects](main_13.png) *Place created objects screenshot*
+<img width="785" height="311" alt="main 13" src="https://github.com/user-attachments/assets/f95dc483-0467-48d7-ab91-2d9c674dd339" />
+
 
 ### Phase VI: PL/SQL Development
 **Packages Implemented:**
@@ -75,7 +82,8 @@ All tables created with proper constraints, indexes, and relationships. Sample d
 2. `PRESCRIPTION_PKG` - Prescription management procedures
 3. `REPORT_PKG` - Reporting and analytics functions
 
-![Package Compilation](main_15.png) *Place package compilation screenshot*
+<img width="788" height="290" alt="main 15" src="https://github.com/user-attachments/assets/54539fd0-c7d8-4a77-8788-8bf3f48e9ec0" />
+
 
 **Note:** Compilation error detected in REPORT_PKG (Line 37) - requires fixing invalid relational operator.
 
